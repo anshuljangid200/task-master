@@ -1,0 +1,9 @@
+node_modules
+backend
+venv
+.git
+.gitignore
+pulse_task.db
+frontend/node_modules
+*.pyc
+__pycache__
