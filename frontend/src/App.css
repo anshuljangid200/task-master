@@ -43,8 +43,81 @@
 }
 
 @media (max-width: 768px) {
+  .app-container {
+    padding: 2rem 1rem;
+  }
+
   .content {
     grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .logo {
+    font-size: 2.2rem;
+  }
+
+  .header {
+    margin-bottom: 2rem;
+  }
+
+  .glass-card {
+    padding: 1.25rem;
+    box-shadow: 6px 6px 0px #DBCEA5;
+  }
+
+  .task-header {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .task-info {
+    width: 100%;
+    order: 3;
+  }
+
+  .priority-badge {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .status-toggle {
+    order: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.8rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .form-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-footer button {
+    justify-content: center;
+  }
+
+  .task-card {
+    position: relative;
+    padding-bottom: 3.5rem;
+  }
+
+  .task-actions {
+    position: absolute;
+    bottom: 1.25rem;
+    right: 1.25rem;
+  }
+
+  .empty-state {
+    padding: 2.5rem 1rem;
   }
 }
 
