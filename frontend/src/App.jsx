@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Trash2, CheckCircle, Clock, AlertCircle, BookOpen } from 'lucide-react';
 import './App.css';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = '/api';
 
 function App() {
   const [tasks, setTasks] = useState([]);
