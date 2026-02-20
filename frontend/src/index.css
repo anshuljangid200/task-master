@@ -1,0 +1,33 @@
+:root {
+  font-family: 'Playfair Display', serif;
+  /* Classic serif font */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #4a4a4a;
+  background-color: #ECE7D1;
+  /* Cream base */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #ECE7D1;
+}
+
+#root {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
